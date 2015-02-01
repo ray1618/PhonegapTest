@@ -3,10 +3,10 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.hello-world"
+        id        = "com.phonegap.fabAbroad"
         version   = "0.0.1">
 
-    <name>Hello World</name>
+    <name>FavAbroad</name>
 
     <description>
         Eerst proefversion FavAbroad > url conversie app voor onderweg.
@@ -44,6 +44,17 @@
     <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
     <preference name="android-minSdkVersion"      value="7" />             <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
     <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
+	
+	<!-- Rays preferences -->
+	<preference name="KeepRunning" 				  	value="false" />		<!-- killt de app niet maar laat de execution code binnen cordova webview stoppen in de achtergrond -->
+	<preference name="LoadUrlTimeoutValue"			value="10000" />	 	<!-- geeft timeout error na 10 seconden inplaats van de default 20 seconden ( haalt tocht niets offline ) -->
+	<preference name="SplashScreenDelay"			value="1500" />			<!-- hoe lang is het splash screen zichtbaar.. default is 3000 -->
+	<preference name="LoadingDialog"				value="loading" />		<!-- geeft de loading tekst onder de spinner icon weer -->
+	<preference name="ErrorUrl"						value="errorPage.html" /> <!-- de errorpagina -->
+	<preference name="ShowTitle"					value="tue" /> 			<!-- Laat de titel aan de bovenkant van het scherm zien. -->
+	
+	
+	
 
     <!-- Plugins can also be added here. -->
     <!--
