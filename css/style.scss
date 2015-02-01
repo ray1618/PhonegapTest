@@ -1,5 +1,17 @@
 /*Main styling file*/
+$defaultPadding : 15px;
 
 body{
 	background-color: #ffffff;
+}
+
+.container{
+	padding: $defaultPadding;
+	
+	h1{
+		text-align: left;
+		font-family: arial;
+		font-weight: bold;
+		text-transform: none;
+	}
 }
