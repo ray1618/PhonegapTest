@@ -4,16 +4,16 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.hello-world"
-        version   = "1.0.0">
+        version   = "0.0.1">
 
     <name>Hello World</name>
 
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Eerst proefversion FavAbroad > url conversie app voor onderweg.
     </description>
 
-    <author href="http://phonegap.com" email="support@phonegap.com">
-        PhoneGap Team
+    <author href="http://i-ray.nl" email="raymond@i-rayl.nl">
+        Raymond Bas
     </author>
 
     <!--
@@ -25,8 +25,7 @@
     <!--
         If you do not want any permissions to be added to your app, add the
         following tag to your config.xml; you will still have the INTERNET
-        permission on your app, which PhoneGap requires.
-    -->
+        permission on your app, which PhoneGap requires.    -->
     <preference name="permissions"                value="none"/>
 
     <!-- Customize your app and platform with the preference element. -->
